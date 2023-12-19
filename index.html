@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CPSC 490 Project Homepage</title>
+		<style>
+            video {
+                width: 1280px;
+                height: 720px;
+            }
+        </style>
+	</head>
+	<body>
+		<h1>CPSC 490 Senior Project</h1>
+		<h2>Understanding Quality of Experience of Video Streaming on Multihomed Hosts with 5G via Multipath Routing</h2>
+		<div>
+			<video id="adaptive_video" preload="none" data-dashjs-player autoplay="true" muted src="video/output/coaster_equir.mpd"></video>
+		</div>
+		<div>
+			<p id="results"></p>
+		</div>
+		<div>
+			<p id="total_time">0</p>
+		</div>
+		<div>
+			<p id="time"></p>
+		</div>
+		<div>
+			<p id="fetch"></p>
+		</div>
+
+
+		<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+		<script src="publish.js"></script>
+		<script src="buffering.js"></script>
+	</body>
+</html>
